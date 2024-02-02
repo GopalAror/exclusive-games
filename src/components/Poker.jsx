@@ -7,7 +7,7 @@ import Designbtn from './Designbtn';
 const Poker = () => {
     return (
         <div>
-            <div className="max-w-[1140px] mx-auto px-3">
+            <div className="max-w-[1140px] mx-auto px-3" id="offer">
                 <h2 className='text-white font-Anton font-normal text-[48px] leading-[57px] text-center'>Nuestras ofertas</h2>
                 <p className='text-white font-Inter pt-4 pb-[60px] font-medium leading-[25px] text-[16px] text-center opacity-80'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
                 <div className="w-full border-[0.5px] border-white px-5 bg-[#051D23] rounded-[16px]">

@@ -12,7 +12,7 @@ const TripleSeven = () => {
                     <div className="md:w-6/12 w-full flex flex-col items-center justify-center px-3 md:max-w-[558px]">
                         <img className='w-full h-full' src={seven} alt="seven" />
                     </div>
-                    <div className="md:w-6/12 w-full flex flex-col items-center justify-center px-3 max-md:pt-7">
+                    <div className="md:w-6/12 w-full max-md:flex flex-col items-center justify-center px-3 max-md:pt-7">
                         <h2 className='text-white pb-[50px] font-Anton font-normal text-[48px] leading-[57px]'>Más razones para elegirnos</h2>
                         <div className=' bg-people p-[0.5px] pl-[1px] duration-300 hover:shadow-[0px_5px_10px_#7AF57A] rounded-[16px] max-w-[374px]'>
                             <div className=" px-[56px] bg-[#051D23] py-6 flex items-center gap-[37px] rounded-[16px]">

@@ -38,7 +38,7 @@ const Slot = () => {
     ]
     return (
         <div className='relative'>
-            <div className='max-w-[1140px] mx-auto px-3 pt-[80px] md:pt-[150px] flex flex-col items-center'>
+            <div className='max-w-[1140px] mx-auto px-3 pt-[80px] md:pt-[150px] flex flex-col items-center' id="slot">
                 <h2 className='text-center text-[48px] font-Anton leading-[57px] font-normal text-[#00141B] pb-4'>Slots</h2>
                 <p className='text-center text-[16px] leading-[25px] font-Inter font-medium opacity-80 text-[#00141B] max-w-[904px]'>En Exclusive Games, ofrecemos una selección de más de 600 juegos de los principales desarrolladores, como Aristocrat, Amatic, EGT, Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo trabaja incansablemente para innovar y ampliar nuestra oferta de experiencias, garantizando la máxima seguridad con operaciones protegidas por cifrado SSL de 256 bits.</p>
                 <div className="flex flex-row flex-wrap -mx-3 pt-[15px] sm:pt-[60px] pb-[40px] relative z-[2]">

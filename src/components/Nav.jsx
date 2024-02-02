@@ -15,11 +15,11 @@ const Nav = () => {
             <img className='cursor-pointer w-full max-w-[210px] h-[43px]' src={logo} alt="logo" />
           </div>
           <ul className={`flex items-center gap-[28px] max-lg:fixed max-lg:top-0 max-lg:justify-center max-lg:w-full max-lg:h-screen max-lg:bg-black max-lg:flex-col max-lg:z-[3] duration-700 ${nav ? "left-0" : "left-[-100%]"}`}>
-            <li><a className='text-white font-Inter text-[16px] font-medium leading-[25px] opacity-80 hover:opacity-100 duration-500' href="#">Hogar</a></li>
-            <li><a className='text-white font-Inter text-[16px] font-medium leading-[25px] opacity-80 hover:opacity-100 duration-500' href="#">Misión</a></li>
-            <li><a className='text-white font-Inter text-[16px] font-medium leading-[25px] opacity-80 hover:opacity-100 duration-500' href="#">Tragamonedas</a></li>
-            <li><a className='text-white font-Inter text-[16px] font-medium leading-[25px] opacity-80 hover:opacity-100 duration-500' href="#">Por qué elegirnos</a></li>
-            <li><a className='text-white font-Inter text-[16px] font-medium leading-[25px] opacity-80 hover:opacity-100 duration-500' href="#">Ofertas</a></li>
+            <li><a className='text-white font-Inter text-[16px] font-medium leading-[25px] opacity-80 hover:opacity-100 duration-500' href="#home" onClick={view}>Hogar</a></li>
+            <li><a className='text-white font-Inter text-[16px] font-medium leading-[25px] opacity-80 hover:opacity-100 duration-500' href="#mision" onClick={view}>Misión</a></li>
+            <li><a className='text-white font-Inter text-[16px] font-medium leading-[25px] opacity-80 hover:opacity-100 duration-500' href="#slot" onClick={view}>Tragamonedas</a></li>
+            <li><a className='text-white font-Inter text-[16px] font-medium leading-[25px] opacity-80 hover:opacity-100 duration-500' href="#por" onClick={view}>Por qué elegirnos</a></li>
+            <li><a className='text-white font-Inter text-[16px] font-medium leading-[25px] opacity-80 hover:opacity-100 duration-500' href="#offer" onClick={view}>Ofertas</a></li>
             <div className='min-[500px]:hidden flex'>
               <Simplebtn simple="Acceso" />
             </div>

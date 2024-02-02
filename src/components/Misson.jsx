@@ -6,7 +6,7 @@ import short from "../assets/images/short-img.webp";
 
 const Misson = () => {
     return (
-        <div className='overflow-hidden relative'>
+        <div className='overflow-hidden relative' id="mision">
             <img className=' absolute top-0 left-0 min-h-[484px] max-w-[175px] w-full z-0' src={big} alt="big" />
             <img className=' absolute top-[46%] left-[44%] max-w-[170px] w-full min-h-[170px]' src={short} alt="short" />
             <div className="max-w-[1140px] mx-auto px-3 md:pt-[74px] md:pb-[100px]">

@@ -43,5 +43,4 @@ const Atributos = () => {
         </div>
     )
 }
-
 export default Atributos
