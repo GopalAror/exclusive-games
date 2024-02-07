@@ -39,7 +39,7 @@ function App() {
         <img className=' animate-bounce' src={logo} alt='gif' />
         <div className=' font-poppins text-[50px] text-[#00141B] font-semibold'>Loading ...</div>
       </div>) : (<div className='bg-[#00141B]'>
-        <div className='bg-[url(./assets/images/header-bg.webp)] min-h-screen flex flex-col bg-no-repeat bg-cover bg-center'>
+        <div className='bg-[url(./assets/images/header-bg.webp)] min-h-screen bg-fixed flex flex-col bg-no-repeat bg-cover bg-center'>
           <Nav />
           <Header />
         </div>
